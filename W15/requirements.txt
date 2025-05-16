@@ -1,0 +1,5 @@
+gradio
+flask
+pandas
+folium
+requests
