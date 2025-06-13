@@ -27,7 +27,8 @@ def map_demo():
     data_list = list(cr)
 
     # 使用 geocoder 取得特定住址的 GPS 座標
-    location = geocoder.osm('新北市').latlng
+    #location = geocoder.osm('新北市').latlng
+    location = (data_list[1][6], data_list[1][7])
 
     m = folium.Map(location=location, zoom_start=14)
 
